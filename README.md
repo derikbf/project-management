@@ -1,24 +1,36 @@
-# README
+# Project Management
+A simple Project Management rails project with:
+- Project Creation
+- Task Creation
+- Project Progress (percentage)
+- Project Status
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+![Project-management](link)
 
-Things you may want to cover:
+## Technology Stack
 
-* Ruby version
+- ruby on rails ``6.0.4``
+- ruby ``2.7.0``
+- postgresql 
+- Bootstrap
 
-* System dependencies
+## Set up
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+1. Clone the project
+```
+git clone https://github.com/derikbf/project-management.git
+```
+```
+cd project-management
+```
+2. Install dependencies
+``` 
+bundle install
+``` 
+``` 
+rails db:create db:migrate db:seed
+``` 
+3. Start the project
+```
+rails s
+```
