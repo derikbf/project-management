@@ -4,8 +4,9 @@ A simple Project Management rails project with:
 - Task Creation
 - Project Progress (percentage)
 - Project Status
+- Task Status
 
-![Project-management](link)
+![Project-management](https://i.ibb.co/hM7qrf9/Project-management.gif)
 
 ## Technology Stack
 
